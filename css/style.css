@@ -35,7 +35,11 @@ body, main{
     background-color: azure;
     border-radius: 40px;
     padding: 6px;
-
+    transition: all 0.7s;
+}
+.col-3 svg:hover{
+    /* transform:translateX(40px); */
+    transform: scale(1.5);
 }
 
 .col-3 h2{
@@ -60,12 +64,12 @@ body, main{
     border: none;
     outline: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 .col-3 button:hover{
     background-color: azure;
     color: #014187;
+    cursor: pointer;
 }
 
 .container .row2{
@@ -119,10 +123,10 @@ body, main{
     padding: 9px;
     width: 300px;
     color: azure;
-    cursor: pointer;
 }
 
 .row2 button:hover{
     background-color: azure;
     color: #0e6acf;
+    cursor: pointer;
 }
