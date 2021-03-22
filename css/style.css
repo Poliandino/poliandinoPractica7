@@ -1,5 +1,71 @@
 body, main{
     margin: 0;
     padding: 0;
+    background-color: #014187;
 }
+
+.container{
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .row1{
+    width: 80%;
+    height: 50hv;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.container .row1 .col-3{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.col-3 svg{
+    width: 2.5em;
+    height: 2.5em;
+    background-color: azure;
+    border-radius: 40px;
+    padding: 6px;
+
+}
+
+.col-3 h2{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+.col-3 p{
+    margin-top: 0;
+    width: 90%;
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+}
+
+.col-3 button{
+    background-color: #014187;
+    color: azure;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.col-3 button:hover{
+    background-color: azure;
+    color: #014187;
+}
+
 
